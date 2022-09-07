@@ -1,0 +1,42 @@
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 0px;
+    height: 560px;
+    width: 560px;
+}
+
+.grid-element{
+    background-color: black;
+    width: 30px;
+    flex:0 1 auto;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.grid-element-paint{
+    background-color:pink;
+    width: 30px;
+    flex:0 1 auto;
+    height: auto;
+    aspect-ratio: 1/1;
+}
